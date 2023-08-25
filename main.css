@@ -1,0 +1,51 @@
+* {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+font-size: 60px;
+
+}
+
+#rules{
+    position:absolute;
+     top:0;
+     right:0;
+     margin-right: 40px;
+     font-size: medium;
+}
+
+.hidden {
+    display: none;
+    font-size: large;
+}
+#points {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+Input {
+    width: 5%;
+    height: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#firstNumber, #secondNumber{
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+#sub, #res {
+    font-size: large;
+   
+}
